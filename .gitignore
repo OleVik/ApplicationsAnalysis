@@ -1,4 +1,4 @@
-Data/
+Data/**/*
 !Data/Applications.db
 !Data/Applications.json
 !Data/table.md
