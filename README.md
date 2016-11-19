@@ -11,6 +11,9 @@ Notebooks are run consecutively, as follows:
 
 ## Changelog
 ### 2.0.2
+Cleaned raw data and repository.
+
+### 2.0.0
 Simplified structure and measurements, replaced GGPlot with Seaborn/Matplotlib.
 
 ### 1.0.0
