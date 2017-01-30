@@ -1,3 +1,11 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<style>
+body {
+	padding: 2em;
+}
+</style>
+
 # Applications Analysis
 
 Perform quantitative analysis on raw data from job applications in preparation for [qualitative write-up](http://olevik.me/applications) and evaluation. Designed to run through [Jupyter/IPython](http://jupyter.org/) and output SVG files, as well as some Markdown. Written mostly in Python 3, tested in Python 3.5.2 through Jupyter 4.1.1.
@@ -10,14 +18,14 @@ Notebooks are run consecutively, as follows:
 4. [MarkdownTable.ipynb](./4.MarkdownTable.html) (creates Markdown table of data)
 
 ## Changelog
-### 2.1.0
+#### 2.1.0
 Added docs.
 
-### 2.0.2
+#### 2.0.2
 Cleaned raw data and repository.
 
-### 2.0.0
+#### 2.0.0
 Simplified structure and measurements, replaced GGPlot with Seaborn/Matplotlib.
 
-### 1.0.0
+#### 1.0.0
 Dropped LinesPerDay.ipynb Python/Plotly plot in favor of R's GGPlot. Added Descriptives.ipynb, Textstats.ipynb, MarkdownTable.ipynb, and ReadingTime.ipynb which use [RPy2](http://rpy2.readthedocs.org/) to bridge Python and R, and creates the Descriptives, Texstats, Consensus, and ReadingTime plots.
