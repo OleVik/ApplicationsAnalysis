@@ -1,6 +1,6 @@
 # Applications Analysis
 
-Perform quantitative analysis on raw data from job applications in preparation for [qualitative write-up](http://olevik.me/applications) and evaluation. Designed to run through [Jupyter/IPython](http://jupyter.org/) and output SVG files, as well as some Markdown. Written mostly in Python 3, tested in Python 3.5.2 through Jupyter 4.1.1.
+Perform quantitative analysis on raw data from job applications in preparation for [qualitative write-up](https://olevik.me/writing/applications) and evaluation. Designed to run through [Jupyter/IPython](http://jupyter.org/) and output SVG files, as well as some Markdown. Written mostly in Python 3, tested in Python 3.5.2 through Jupyter 4.1.1.
 
 Notebooks are run consecutively, as follows:
 
